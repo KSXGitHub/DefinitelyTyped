@@ -1,6 +1,12 @@
 {
-    "private": true,
-    "dependencies": {
-        "protractor": "latest"
-    }
+  "private": true,
+  "dependencies": {
+    "protractor": "latest",
+    "snyk": "^1.230.5"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
