@@ -1,6 +1,6 @@
 {
     "private": true,
     "dependencies": {
-        "styled-components": "2.x - 3.x"
+        "styled-components": "4.0.0"
     }
 }
